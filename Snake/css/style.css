@@ -12,12 +12,10 @@ body {
   justify-content: center;
   align-items: center;
   background: white;
+  cursor: cell;
 }
 
 canvas {
-  border: 5px solid rgb(15, 199, 39);
-}
-.fillText{
-  color: blue
-  ;
+  border: 5px solid rgb(15, 200, 39);
+  cursor: none;
 }
