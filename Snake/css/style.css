@@ -1,9 +1,11 @@
+/**/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/**/
 body {
   height: 100vh;
   width: 100%;
@@ -15,6 +17,7 @@ body {
   cursor: cell;
 }
 
+/**/
 canvas {
   border: 5px solid rgb(15, 200, 39);
   cursor: none;
