@@ -1,24 +1,31 @@
-/**/
+/**
+ * Lieu        : ETML, Sébeillon
+ * Auteur      : Amir Zeqiri
+ * Date        : 09.01.2024
+ * Description : Page du style en CSS du projet bulles (Snake en JS)
+ **/
+
+/* Réinitialisation des marges, des rembourrages et de la boîte de modélisation */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/**/
+/* Style du corps de la page */
 body {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background: rgb(225, 225, 225);
-  cursor: cell;
+  height: 100vh; /* Hauteur égale à 100% de la hauteur de la vue */
+  width: 100%; /* Largeur égale à 100% de la largeur de la vue */
+  display: flex; /* Utilisation du modèle de boîte flexible */
+  flex-wrap: wrap; /* Permet le retour à la ligne des éléments enfants si l'espace est insuffisant */
+  justify-content: center; /* Centrage horizontal des éléments enfants */
+  align-items: center; /* Centrage vertical des éléments enfants */
+  background: rgb(225, 225, 225); /* Couleur de fond de la page */
+  cursor: cell; /* Définition du curseur de la souris */
 }
 
-/**/
+/* Style du canvas */
 canvas {
-  border: 7px solid rgb(15, 200, 39);
-  cursor: none;
+  border: 7px solid rgb(15, 200, 39); /* Bordure du canvas avec une couleur spécifiée */
+  cursor: none; /* Désactivation du curseur par défaut sur le canvas */
 }
