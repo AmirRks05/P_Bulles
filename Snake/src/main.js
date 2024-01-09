@@ -16,7 +16,7 @@ const ctx = canvas.getContext('2d');
 // Taille d'un bloc sur le canvas
 const BlockSize = 40;
 
-// Initialisation du score à zéroS
+// Initialisation du score à zéro
 let score = 0;
 
 // Création d'une instance de la classe Apple et d'une instance de la classe Snake
@@ -69,5 +69,5 @@ window.addEventListener('keydown', (event) => {
   }
 });
 
-// Boucle principale du jeu avec la fonction move du serpent appelée à chaque trame
+// Boucle principale du jeu avec la fonction move du serpent appelée à chaque frame
 requestAnimationFrame(() => snake.move());
