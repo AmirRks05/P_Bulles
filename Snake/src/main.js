@@ -2,7 +2,10 @@
  * Lieu        : ETML, Sébeillon
  * Auteur      : Amir Zeqiri
  * Date        : 09.01.2024
- * Description : Page principale en JavaScript du projet bulles (Snake en JS)
+ * Description : Ce code JavaScript crée un jeu de serpent en utilisant le canvas HTML5.
+ * Il initialise le serpent, une pomme, et gère les événements clavier pour permettre au joueur
+ * de déplacer le serpent. La boucle principale du jeu, basée sur `requestAnimationFrame`, appelle
+ * continuellement la fonction de déplacement du serpent pour mettre à jour le rendu.
  */
 
 // Importation des classes Snake et Apple depuis les fichiers correspondants
@@ -25,7 +28,7 @@ const snake = new Snake(canvas, ctx, BlockSize, score, apple);
 
 // Gestion des événements clavier pour déplacer le serpent
 window.addEventListener('keydown', (event) => {
-  // Switch pour gérer différentes touches de direction
+  // Gérer les différentes touches de direction
   switch (event.key) {
     // Déplacement vers le haut
     case 'ArrowUp':

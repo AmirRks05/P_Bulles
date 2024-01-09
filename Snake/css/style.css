@@ -2,7 +2,10 @@
  * Lieu        : ETML, Sébeillon
  * Auteur      : Amir Zeqiri
  * Date        : 09.01.2024
- * Description : Page du style en CSS du projet bulles (Snake en JS)
+ * Description : Ce code CSS applique une réinitialisation des marges, paddings, et la boîte de
+ modèle à tous les éléments HTML. Il stylise le corps de la page en utilisant Flexbox pour centrer
+ son contenu, avec un fond gris clair et un curseur en forme de cellule. Le canvas, utilisé pour le
+ rendu du jeu, a une bordure verte et masque le curseur par défaut.
  **/
 
 * {
